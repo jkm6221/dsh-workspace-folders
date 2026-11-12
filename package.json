@@ -1,7 +1,7 @@
 {
   "name": "dsh-workspace-folders",
-  "version": "0.2.0",
-  "description": "Attach extra folders to the current workspace: they become writable for the file tools and shell, listed for the model, and manageable from the composer.",
+  "version": "0.3.0",
+  "description": "Attach extra folders to a workspace: they become writable for the file tools and shell, listed for the model, and manageable from the workspace context menu.",
   "type": "module",
   "license": "MIT",
   "author": "jkm6221",
@@ -44,8 +44,7 @@
     "client": {
       "platform": "web",
       "inject": [
-        "@deepseek-ai/dsh-client-ui-conversation",
-        "@deepseek-ai/dsh-client-ui-workspace",
+        "@deepseek-ai/dsh-client-ui-context-menu",
         "@deepseek-ai/dsh-client-locale"
       ]
     }
