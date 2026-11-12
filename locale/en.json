@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Workspace folders",
+    "description": "Attach extra folders to the current workspace. Attached folders become writable for the file tools and the shell, are listed for the model, and can be managed from the composer."
+  }
+}

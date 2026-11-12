@@ -1,0 +1,53 @@
+{
+  "name": "dsh-workspace-folders",
+  "version": "0.1.0",
+  "description": "Attach extra folders to the current workspace: they become writable for the file tools and shell, listed for the model, and manageable from the composer.",
+  "type": "module",
+  "license": "MIT",
+  "author": "jkm6221",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jkm6221/dsh-workspace-folders.git"
+  },
+  "homepage": "https://github.com/jkm6221/dsh-workspace-folders#readme",
+  "bugs": {
+    "url": "https://github.com/jkm6221/dsh-workspace-folders/issues"
+  },
+  "main": "lib/index.js",
+  "exports": {
+    ".": {
+      "default": "./lib/index.js"
+    },
+    "./client": {
+      "default": "./lib/client.js"
+    },
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib/index.js",
+    "lib/client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=22",
+    "dsh": ">=0.2.1-rc.1 <0.3"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-conversation",
+        "@deepseek-ai/dsh-client-ui-workspace",
+        "@deepseek-ai/dsh-client-locale"
+      ]
+    }
+  }
+}
