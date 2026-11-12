@@ -1,6 +1,6 @@
 {
   "name": "dsh-workspace-folders",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Attach extra folders to the current workspace: they become writable for the file tools and shell, listed for the model, and manageable from the composer.",
   "type": "module",
   "license": "MIT",
