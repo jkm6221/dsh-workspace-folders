@@ -1,6 +1,6 @@
 {
   "name": "dsh-workspace-folders",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Attach extra folders to a workspace: they become writable for the file tools and shell, listed for the model, and manageable from the workspace context menu.",
   "type": "module",
   "license": "MIT",
