@@ -1,8 +1,14 @@
 # dsh-workspace-folders
 
+<img src="assets/icon-180.png" width="72" height="72" alt="">
+
 给**侧栏里的某个工作区**附加多个文件夹：附加后它们和该工作区一样可读可写（`read` / `write` / `edit` / `bash` 都认），
 模型能在运行时上下文里看到它们。入口在**工作区行的右键菜单**，不需要打开任何会话；附加关系**只属于这个工作区**，
 别的项目看不到也写不了。
+
+| 右键菜单里的入口 | 管理该工作区的附加文件夹 |
+| --- | --- |
+| ![工作区右键菜单](assets/screenshots/workspace-menu.png) | ![附加文件夹弹窗](assets/screenshots/folder-dialog.png) |
 
 ## 能力
 

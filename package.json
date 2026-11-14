@@ -1,6 +1,6 @@
 {
   "name": "dsh-workspace-folders",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "Attach extra folders to a workspace: they become writable for the file tools and shell, listed for the model, and manageable from the workspace context menu.",
   "type": "module",
   "license": "MIT",
@@ -31,7 +31,9 @@
     "cordis.patch.yml",
     "locale/*.json",
     "icon.svg",
-    "README.md"
+    "README.md",
+    "assets",
+    "screenshots.json"
   ],
   "engines": {
     "node": ">=22",
